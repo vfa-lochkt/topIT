@@ -1,0 +1,53 @@
+@media (min-width: 320px) and (max-width: 767px) {
+	body{padding-top: 50px;}
+	h2{font-size: 25px; padding: 0;margin: 0;}
+	h3{font-size: 20px; padding: 0;margin: 0;}
+	.navbar-brand>img {
+    max-width: 150px;
+	}
+	.container>.navbar-header{
+		padding: 5px 0 0;
+		margin: 0;
+	}
+	.navbar-toggle{margin: 3px 0 0;}
+	.search-form-content{
+		top: 100px;
+		width: 90%;
+		padding: 25px;
+	}
+	.search-form-content h2{font-size: 25px;}
+	.location,
+	.btn-find-jobs,
+	.key-words{width: 100%;}
+
+	.top-companies,
+	.services{padding: 25px 0}
+
+	.top-companies ul{padding-top: 25px;}
+	.services-listing{padding-top: 25px;}
+	.services-listing .row{margin: 0;}
+	.services h4{font-size: 16px; padding-bottom: 10px;}
+	.services-listing p{font-size: 14px;}
+	.services-listing .service-item{padding-left: 30px; margin-top: 20px;}
+	.services-listing .service-item.latest-insights,
+	.services-listing .service-item.top-tech-ompanies,
+	.services-listing .service-item.trending-skills,
+	.services-listing .service-item.cities{background-size: 20px;}
+	.trending-skills-and-cities{padding-top: 0px;}
+	.services-listing .service-item.latest-insights{margin-top: 0;}
+	.latest-jobs-listing{padding: 25px 0}
+	footer ul{display: none;}
+}
+/* --- Table --- */
+@media (min-width: 768px) and (max-width: 999px) {
+	.search-form-content{
+		width: 96%;
+		top: 100px;
+		padding: 50px 25px;
+	}
+	.search-form-content h2{font-size: 40px;}
+	.key-words{width: 53%;}
+	.services-listing .row{margin: 0;}
+
+	footer .container{padding: 0;}
+}

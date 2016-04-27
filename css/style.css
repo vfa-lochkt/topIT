@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    min-height: 2000px;
+    padding-top: 60px;
+}
+.light-gray{background-color: #f9f9f9}
+.gray-color{color: #707070}
+h2{font-size: 45px; font-weight: 300; text-transform: capitalize;}
+h3{font-size: 30px; font-weight: 300; text-transform: capitalize;}
+h3.under-line{
+	background: url(../img/underline-header.png) center bottom no-repeat;
+	padding-bottom: 15px;
+}
+h4{font-size: 18px; font-weight: 500; margin: 0;}
+input,
+button,
+textarea{outline: none;}
+ul{list-style: none;margin: 0;padding: 0;}
+.p-n {
+    padding: 0;
+}
+
+.p-l {
+    padding-left: 0;
+}
+
+.p-r {
+    padding-right: 0;
+}
+
+.p-lr {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.m-n {
+    margin: 0;
+}
+.m-l{margin-left: 0;}
+.m-r{margin-right: 0;}
+.no-borders {
+    border: 0 !important;
+}
+
+
+/* ----- main  menu ----- */
+
+.navbar>.container .navbar-brand {
+    padding: 5px 0;
+    height: auto;
+    margin-left: 0;
+}
+
+.navbar-brand>img {
+    max-width: 240px;
+}
+
+.navbar-default .navbar-nav li a {
+    padding: 20px;
+    color: #777;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>.active>a{ color: #000}
+.navbar-default .navbar-nav li:hover a{background-color: #e7e7e7}
+/* ----- Main Banner ----- */
+.main-banner{
+	width: 100%;
+	background: url(../img/banner.png) center top no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+.search-form{position: relative; height: 500px; width: 100%; padding: 0;}
+.search-form-content{box-sizing: border-box; display: inline-block; width: 80%;  
+	padding: 50px;
+	background-color: rgba(6, 91, 137, 0.6);margin: auto; color: #fff; position: absolute; left: 0; right: 0; top: 25%;
+}
+.search-form-content h2{padding-bottom: 40px;margin: 0;}
+.search-form-content .form-inline .form-control{width: 100%;border-radius: 0; height: 42px; border: 0; font-size: 16px;}
+.key-words{width: 50%}
+.location{width: 25%}
+.btn-find-jobs{width: 20%;}	
+.btn-find-jobs .btn{width: 100%; border-radius: 0; height: 42px; border: 0;font-size: 16px;}
+
+/* ----- Top Companies ----- */
+.top-companies{padding: 50px 0; display: inline-block; width: 100%;}
+.top-companies ul{padding-top: 60px; width: 100%; display: inline-block;}
+.top-companies li{position: relative; line-height: 64px; text-align: center;}
+.top-companies li img{max-width: 100%;margin: auto}
+
+/* ----- services ----- */
+.services{padding: 50px 0;display: inline-block; width: 100%;}
+.services h4{padding-bottom: 20px;}
+.services-listing{width: 100%;display: inline-block; text-align: left; padding: 60px 0 0 0}
+.services-listing .service-item{padding: 0 0 0 60px;}
+.trending-skills-and-cities{padding-top: 50px;}
+.services-listing .service-item.latest-insights{ background: url(../img/ic-latest-insights.png) left top no-repeat;}
+.services-listing .service-item.trending-skills{ background: url(../img/ic-trending-skills.png) left top no-repeat;}
+.services-listing .service-item.top-tech-ompanies{ background: url(../img/ic-top-tech-ompanies.png) left top no-repeat;}
+.services-listing .service-item.cities{ background: url(../img/ic-cities.png) left top no-repeat;}
+.services-listing p{font-size: 16px;}
+.services-listing li{padding: 5px 0; font-size: 16px;}
+
+/* ----- Latest Jobs ----- */
+.latest-jobs-listing{padding: 50px 0;display: inline-block; width: 100%;}
+.latest-jobs-slides{position: relative; width: 100%; padding: 45px 0 0}
+footer{ 
+	background-color: #2c2c2c;
+	display: inline-block;
+	padding: 20px 0 10px 0;
+	width: 100%;
+	font-size: 14px; color: #707070
+}
+footer ul{}
+footer li{display: inline-block;padding: 0 5px; text-transform: uppercase;}
+footer li a{color: #707070}
+footer li a:hover{color: #707070; text-decoration: none;}
+.scrollToTop{position: fixed; right: 20px; bottom: 20px; padding: 10px;font-size: 18px; font-weight: 500; color: #fff; background-color: #065b89; z-index: 9999}
+.scrollToTop:hover{color: #fff; text-decoration: none;}
+.scrollToTop:active{color: #fff}
