@@ -3,8 +3,17 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: #333;
-    min-height: 2000px;
     padding-top: 60px;
+    padding-bottom:60px
+}
+html, body{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+.web-container{
+    min-height:100%;
+    position:relative;
 }
 .light-gray{background-color: #f9f9f9}
 .gray-color{color: #707070}
@@ -111,7 +120,10 @@ footer{
 	display: inline-block;
 	padding: 20px 0 10px 0;
 	width: 100%;
-	font-size: 14px; color: #707070
+	font-size: 14px; color: #707070;
+    position: absolute;
+    bottom:0;
+    height:60px;
 }
 footer ul{}
 footer li{display: inline-block;padding: 0 5px; text-transform: uppercase;}
